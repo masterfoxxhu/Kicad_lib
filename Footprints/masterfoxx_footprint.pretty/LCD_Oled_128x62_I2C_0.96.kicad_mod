@@ -1,0 +1,98 @@
+(footprint "LCD_Oled_128x62_I2C_0.96"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd60f720-e9b0-4424-b320-6f5fc35d2796")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LCD_Oled_128x62_I2C_0.96"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "204db931-6261-454c-999a-a6ff09fb7c10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af8bcddf-0dbd-4767-8542-6ee01436c74c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca8b02f6-ff62-4388-841d-bda2e6dc8243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3ab8154-5137-4dc7-8d83-b46f91c43fd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -17.2 -2.3)
+		(size 0.1 0.1)
+		(drill 2.1)
+		(layers "*.Mask" "F.Cu")
+		(uuid "382b5810-428a-4bee-ac11-e26ffd3f878a")
+	)
+	(pad "" np_thru_hole circle
+		(at -15.6 -6.3)
+		(size 0.1 0.1)
+		(drill 2.1)
+		(layers "*.Mask" "F.Cu")
+		(uuid "dbbbf299-cb21-4117-9e87-b7ff16997278")
+	)
+	(pad "" np_thru_hole circle
+		(at -14.2 -12.8)
+		(size 0.1 0.1)
+		(drill 2.1)
+		(layers "*.Mask" "F.Cu")
+		(uuid "32d8d8bb-1232-4611-ae24-c59a1e72238d")
+	)
+	(pad "" np_thru_hole circle
+		(at -10.3 -9.2)
+		(size 0.1 0.1)
+		(drill 2.1)
+		(layers "*.Mask" "F.Cu")
+		(uuid "d06225b6-428e-4806-af1d-ee29c8d27326")
+	)
+	(embedded_fonts no)
+)
