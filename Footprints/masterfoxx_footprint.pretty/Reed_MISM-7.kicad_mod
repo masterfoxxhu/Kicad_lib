@@ -1,0 +1,145 @@
+(footprint "Reed_MISM-7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d2762528-9743-4e30-83a2-521d92b1e105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MISM-7"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2250332-2a4d-4d81-b194-f1b131684289")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-reed-switches-mism-7-datasheet?assetguid=20995e4d-de3f-4a47-b108-493e6c076aae"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c65158a6-3979-4f65-b43f-eecacfd5fc39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910840a8-d0fe-4652-a97e-961f03ef4e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 0)
+		(end -4.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "962cba58-a933-4bd3-8131-be3275111506")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aeaf69cb-0c91-44e8-8e07-9bd76b27b469")
+	)
+	(fp_rect
+		(start -3.5 -0.9)
+		(end 3.5 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1a5a2696-d439-4c7f-899c-abbd4720549e")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -4.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99d3074c-ac20-4042-9593-1c904e35a1f0")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7ec9f1b-a093-4ee7-b5dd-f7fe84366e84")
+	)
+	(fp_rect
+		(start -3.5 -0.9)
+		(end 3.5 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dead300d-883a-455d-86d1-7f0b3657716e")
+	)
+	(pad "1" smd roundrect
+		(at -5.925 0)
+		(size 3.25 1.12)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "90830e8f-77da-4f9a-bc81-5cb6e12a032c")
+	)
+	(pad "2" smd roundrect
+		(at 5.925 0)
+		(size 3.25 1.12)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "97c19753-086b-4afd-abdf-1f65601d970d")
+	)
+	(embedded_fonts no)
+	(model "${MY_3D}/mism7r_reed.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
