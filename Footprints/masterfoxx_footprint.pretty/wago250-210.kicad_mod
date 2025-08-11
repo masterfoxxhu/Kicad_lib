@@ -1,4 +1,4 @@
-(footprint "wago250-209"
+(footprint "wago250-210"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "wago250-209"
+	(property "Value" "wago250-210"
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -30 -7.25)
-		(end -30 4.725)
+		(start -33 -7.3)
+		(end -33 4.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,7 +65,7 @@
 		(uuid "03770850-823c-422d-bf6d-6e19c91b03fd")
 	)
 	(fp_rect
-		(start -31.25 4.7)
+		(start -34.75 4.7)
 		(end 1.75 -7.3)
 		(stroke
 			(width 0.1)
@@ -76,8 +76,8 @@
 		(uuid "10813d19-0a28-4591-a7d4-3df1aa8ad689")
 	)
 	(fp_line
-		(start -30 -7.3)
-		(end -30 4.675)
+		(start -33 -7.3)
+		(end -33 4.675)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -86,8 +86,28 @@
 		(uuid "2fede388-2ea5-4f43-938b-fb837074db0d")
 	)
 	(fp_line
-		(start -27.275 -5.125)
-		(end -29.125 -3.275)
+		(start -30.725 -5.125)
+		(end -32.575 -3.275)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7e7acf26-9050-402c-bc7a-957bb415b8bd")
+	)
+	(fp_line
+		(start -30.475 -4.775)
+		(end -32.375 -2.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ef31e959-5598-4f8c-bd1a-69792ccc56c1")
+	)
+	(fp_line
+		(start -27.2375 -5.125)
+		(end -29.0875 -3.275)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -96,8 +116,8 @@
 		(uuid "c1860ee9-0bba-4811-9212-095793d40f24")
 	)
 	(fp_line
-		(start -27.025 -4.775)
-		(end -28.925 -2.875)
+		(start -26.9875 -4.775)
+		(end -28.8875 -2.875)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -126,8 +146,8 @@
 		(uuid "7df5a573-bb11-4cf6-8aba-a2c5116e8748")
 	)
 	(fp_line
-		(start -20.35 -5.125)
-		(end -22.2 -3.275)
+		(start -20.2 -5.125)
+		(end -22.05 -3.275)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -136,8 +156,8 @@
 		(uuid "80202e55-1e9b-4b6c-8d0f-e9ba3c48959a")
 	)
 	(fp_line
-		(start -20.1 -4.775)
-		(end -22 -2.875)
+		(start -19.95 -4.775)
+		(end -21.85 -2.875)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -267,7 +287,7 @@
 	)
 	(fp_line
 		(start 1.75 0)
-		(end -31.2 0)
+		(end -34.75 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -276,7 +296,7 @@
 		(uuid "001bbcf4-e578-49f4-ad22-3e72e8b76f26")
 	)
 	(fp_rect
-		(start -31.25 4.7)
+		(start -34.75 4.7)
 		(end 1.75 -7.3)
 		(stroke
 			(width 0.1)
@@ -287,8 +307,19 @@
 		(uuid "957c3c5d-57bf-4eed-9879-abc3ef749ef4")
 	)
 	(fp_rect
-		(start -29.15 -5.125)
-		(end -27.025 -2.85)
+		(start -32.6 -5.125)
+		(end -30.475 -2.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3a65a7a8-c68c-470c-a1d5-9e8346692ae5")
+	)
+	(fp_rect
+		(start -29.1125 -5.125)
+		(end -26.9875 -2.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -309,8 +340,8 @@
 		(uuid "a74da93b-ab0b-44c0-bc4d-d22485f734f1")
 	)
 	(fp_rect
-		(start -22.225 -5.125)
-		(end -20.1 -2.85)
+		(start -22.075 -5.125)
+		(end -19.95 -2.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -386,6 +417,28 @@
 		(uuid "0d10c8a1-4a98-47a9-8e6e-eea52a691603")
 	)
 	(fp_arc
+		(start -32.2 0)
+		(mid -31.5 -0.7)
+		(end -30.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "18f348af-8fe3-4f72-9359-95abcdfcf7dd")
+	)
+	(fp_arc
+		(start -30.4 0)
+		(mid -31.5 1.1)
+		(end -32.6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6b614001-8a96-48f6-a84a-3584a0b0df8b")
+	)
+	(fp_arc
 		(start -28.7 0)
 		(mid -28 -0.7)
 		(end -27.3 0)
@@ -452,9 +505,9 @@
 		(uuid "412e3869-1ee7-4b53-a591-dcf9d1745874")
 	)
 	(fp_arc
-		(start -18.3 0)
-		(mid -17.6 -0.7)
-		(end -16.9 0)
+		(start -18.2 0)
+		(mid -17.5 -0.7)
+		(end -16.8 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -463,9 +516,9 @@
 		(uuid "a627d46f-2894-48a4-9e4c-4a1c93469659")
 	)
 	(fp_arc
-		(start -16.5 0)
-		(mid -17.6 1.1)
-		(end -18.7 0)
+		(start -16.4 0)
+		(mid -17.5 1.1)
+		(end -18.6 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -496,9 +549,9 @@
 		(uuid "fc64ecea-2bd2-44c2-a060-1cd6eac6c28a")
 	)
 	(fp_arc
-		(start -11.1 0)
-		(mid -10.4 -0.7)
-		(end -9.7 0)
+		(start -11.2 0)
+		(mid -10.5 -0.7)
+		(end -9.8 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -507,9 +560,9 @@
 		(uuid "650fc603-9085-4917-977c-cc3759bfba97")
 	)
 	(fp_arc
-		(start -9.3 0)
-		(mid -10.4 1.1)
-		(end -11.5 0)
+		(start -9.4 0)
+		(mid -10.5 1.1)
+		(end -11.6 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -739,10 +792,26 @@
 		(remove_unused_layers no)
 		(uuid "5d8253aa-6887-4801-a915-7e8f03561e21")
 	)
+	(pad "10" thru_hole circle
+		(at -31.5 -5)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4a61964-cb46-464a-bb44-082220eb6c7d")
+	)
+	(pad "10" thru_hole circle
+		(at -31.5 0)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f832c159-4721-4d7e-823f-1831db524d11")
+	)
 	(embedded_fonts no)
-	(model "${MY_3D}/PTSA-1-5-9-3-5-Z_3D.stp"
+	(model "${MY_3D}/PTSA-1-5-10-3-5-Z_3D.step"
 		(offset
-			(xyz -29.75 -4.7 0)
+			(xyz -33.25 -4.7 0)
 		)
 		(scale
 			(xyz 1 1 1)
