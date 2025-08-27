@@ -1,0 +1,164 @@
+(footprint "IWSN_LEDBRD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.95 -0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ac88a15-7281-4a94-b400-83b1dbe1b332")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IWSN_LEDBRD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d808f251-4187-4a48-a62d-f06daeef8ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45704c18-3fc8-49fc-b8b3-630dd0a50574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81432e8c-709d-4b75-87f9-a05831959f0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 5.365 0.83)
+		(end 12.715 3.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4832734a-d9a7-48a8-acb3-4a31413981b0")
+	)
+	(fp_rect
+		(start 5.365 68.7046)
+		(end 12.715 71.2446)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "88223193-bedb-4db5-8fbd-51c926ddbce3")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 13.5 72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "851af3ae-0d64-4088-8858-c13a16e0ab68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe644c62-0b9c-46bf-a942-e30bd507b420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 6.5 2.1)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "33d2902c-c023-4647-a265-efe631a41788")
+	)
+	(pad "2" thru_hole circle
+		(at 9.04 2.1)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a45425b8-4314-4603-882f-490cfcdc1b33")
+	)
+	(pad "3" thru_hole circle
+		(at 11.58 2.1)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7283b4d-a764-4ec7-a97c-3184d65fbf05")
+	)
+	(pad "4" thru_hole circle
+		(at 6.5 69.9746)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbaac483-c60d-4f57-8bf7-bf1a805577cd")
+	)
+	(pad "5" thru_hole circle
+		(at 9.04 69.9746)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b7e1e64-bb4a-471e-82b8-139b3097c567")
+	)
+	(pad "6" thru_hole circle
+		(at 11.58 69.9746)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec89b367-f0ff-4f19-a080-1f7a3c7bd016")
+	)
+	(embedded_fonts no)
+	(model "${MY_3D}/iWSN_gateway_LED_v1.step"
+		(offset
+			(xyz 6.75 -35.99 14)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
