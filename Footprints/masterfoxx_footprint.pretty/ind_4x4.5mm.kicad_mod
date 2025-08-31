@@ -49,7 +49,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -2.11 0.73)
 		(end -2.11 -0.72)
@@ -112,7 +112,7 @@
 		(layer "F.Fab")
 		(uuid "1768d03a-9eac-496f-9a90-5b6fbfd7542c")
 	)
-	(fp_text user "REF**"
+	(fp_text user "${REFERENCE}"
 		(at 3.65 1.54 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -54,9 +54,29 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start 0.64 0.34)
+		(end 2.66 0.34)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab7f3e77-7a8c-45ff-bc05-ca699dc97734")
+	)
+	(fp_line
+		(start 0.64 2.69)
+		(end 0.64 0.34)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd2c46c9-7a34-4894-af61-b4a994006eba")
+	)
 	(fp_rect
-		(start 5.365 0.83)
-		(end 12.715 3.37)
+		(start 1.515 0.84)
+		(end 8.865 3.38)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -66,8 +86,8 @@
 		(uuid "4832734a-d9a7-48a8-acb3-4a31413981b0")
 	)
 	(fp_rect
-		(start 5.365 68.7046)
-		(end 12.715 71.2446)
+		(start 1.575 63.22)
+		(end 8.925 65.76)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -76,9 +96,29 @@
 		(layer "F.SilkS")
 		(uuid "88223193-bedb-4db5-8fbd-51c926ddbce3")
 	)
+	(fp_line
+		(start 3.1 0)
+		(end 3.1 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "894bc66f-b199-4a56-a71f-5a2511993fc9")
+	)
+	(fp_line
+		(start 3.1 65.84)
+		(end 3.1 66.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23509aec-4fbb-4238-ab81-931f6b631000")
+	)
 	(fp_rect
 		(start 0 0)
-		(end 13.5 72)
+		(end 13.5 66.54)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -100,7 +140,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 6.5 2.1)
+		(at 2.7 2.1)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -110,7 +150,7 @@
 		(uuid "33d2902c-c023-4647-a265-efe631a41788")
 	)
 	(pad "2" thru_hole circle
-		(at 9.04 2.1)
+		(at 5.24 2.1)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -118,7 +158,7 @@
 		(uuid "a45425b8-4314-4603-882f-490cfcdc1b33")
 	)
 	(pad "3" thru_hole circle
-		(at 11.58 2.1)
+		(at 7.78 2.1)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -126,7 +166,7 @@
 		(uuid "f7283b4d-a764-4ec7-a97c-3184d65fbf05")
 	)
 	(pad "4" thru_hole circle
-		(at 6.5 69.9746)
+		(at 2.7 64.412)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -134,7 +174,7 @@
 		(uuid "fbaac483-c60d-4f57-8bf7-bf1a805577cd")
 	)
 	(pad "5" thru_hole circle
-		(at 9.04 69.9746)
+		(at 5.24 64.412)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -142,7 +182,7 @@
 		(uuid "3b7e1e64-bb4a-471e-82b8-139b3097c567")
 	)
 	(pad "6" thru_hole circle
-		(at 11.58 69.9746)
+		(at 7.78 64.412)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -152,7 +192,7 @@
 	(embedded_fonts no)
 	(model "${MY_3D}/iWSN_gateway_LED_v1.step"
 		(offset
-			(xyz 6.75 -35.99 14)
+			(xyz 6.75 -33.3 14.5)
 		)
 		(scale
 			(xyz 1 1 1)
