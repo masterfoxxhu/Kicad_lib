@@ -1,0 +1,92 @@
+(footprint "italtronic_XTS_compact_4M_housing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -9.2 51.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5bb0d028-7325-4df3-b83f-828670005e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "italtronic_XTS_compact_4M_housing"
+		(at -9.2 53.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "607263c8-b278-44f0-8445-e76d48580291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91976ab1-49e0-4c87-85d3-d77b2966997c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ff66006-c086-445a-8e00-7f2b47f0e47e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -34.2 -37.3)
+		(end 33.8 49.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "cff7ee17-fb63-4d44-bda2-514cfbfbce90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9.2 54.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0914715c-e78d-4a0c-8f8f-0fe7eae478c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${MY_3D}/italtronic_xts_compact_4m.stp"
+		(offset
+			(xyz 0 -6.2 -12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,135 @@
+(footprint "Omron_G5NB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7badffc-37a6-4141-94df-077fb066ac63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Omron_G5NB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "689061eb-6641-4cbf-8b7d-3215381aae77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3acd5bb8-d875-4b31-b590-b90464941472")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baaccec3-3fc6-441c-a3fd-332a674a29d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.05 -5.85)
+		(end 19.45 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3fd26f9a-c021-4a36-b563-e9760a6e4bec")
+	)
+	(fp_rect
+		(start -1.05 -5.85)
+		(end 19.45 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5f5fd1e9-7979-4aa9-9f49-90689c033342")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a682927-280b-4327-9cae-c9c6af89bfc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -4.7)
+		(size 2.1 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6cc3dcc9-0201-4d31-ac10-2adacb6ef8de")
+	)
+	(pad "2" thru_hole oval
+		(at 11.5 0)
+		(size 2.5 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e58fd2b3-2f7e-4f39-95b9-fef378ef7a21")
+	)
+	(pad "3" thru_hole oval
+		(at 18.5 0)
+		(size 2.5 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "665506f6-b602-4a59-92f6-79d2ee727176")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6fc6295-85c5-4c12-8aa8-b2a65e862141")
+	)
+	(embedded_fonts no)
+	(model "${MY_3D}/OMRON G5NB-1A-E 5VDC.STEP"
+		(offset
+			(xyz 9.2 2.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
