@@ -1,0 +1,129 @@
+(footprint "faston250_horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a64b6010-9203-44eb-a633-8e72b75101c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "faston250_horizontal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c324c05b-a067-4094-af94-9c04965ec2b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea70e5dc-9fc7-4421-a2b4-4f7569fb4596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Faston 250 6.3mm horizontal connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd45194-08b0-4266-80bf-a95b527d0d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.85 0)
+		(end -0.85 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e97b7d7-a552-49e0-957b-1bdc8a57d13f")
+	)
+	(fp_line
+		(start 17.3 0)
+		(end 4.4 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd45322e-0f0c-4ef4-8f55-020dcb8f13f2")
+	)
+	(fp_line
+		(start -3.14 0)
+		(end 17.2 0)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63be2214-49e9-43b0-a96c-4ea7550a2e15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "977f8172-a1b3-4e2b-bed3-5d72fe5b9f0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 3.2 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "747aed79-9f4b-4730-9959-90949a7f8baf")
+	)
+	(pad "1" thru_hole roundrect
+		(at 2.54 0)
+		(size 3.2 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8e3c09f7-3a31-4c37-ac67-e2663ca365b8")
+	)
+	(embedded_fonts no)
+	(model "${MY_LIB}/3d/faston250_horiz.stp"
+		(offset
+			(xyz 17 0 5.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
